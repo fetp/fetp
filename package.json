@@ -29,7 +29,6 @@
   "homepage": "https://github.com/yang657850144/feq#readme",
   "dependencies": {
     "cac": "^5.0.15",
-    "fs-extra": "^7.0.1",
     "ora": "^3.0.0"
   }
 }
