@@ -1,6 +1,6 @@
 {
   "name": "fetp",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "基于nodejs的前端构建工具",
   "main": "lib/index.js",
   "bin": {
