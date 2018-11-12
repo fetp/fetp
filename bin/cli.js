@@ -1,30 +1,54 @@
 #!/usr/bin/env node
 // console.log('hello CLI')
 
-const program = require('commander')
+const cac = require('cac')
+const cli = cac()
 
-// program
-//   .version('0.1.0')
-//   .option('-p, --peppers', 'Add peppers')
-//   .option('-P, --pineapple', 'Add pineapple')
-//   .option('-b, --bbq-sauce', 'Add bbq sauce')
-//   .option('-c, --cheese [type]', 'Add the specified type of cheese [marble]', 'marble')
-//   .parse(process.argv)
+const createHandler = (mode) => {
+  if (mode === 'init') {}
+  return input => {
+    // console.log(input, mode)
+    const runInit = require('../lib/runInit')
+    runInit(input)
+  }
+}
 
-// console.log('you ordered a pizza with:')
-// if (program.peppers) console.log('  - peppers')
-// if (program.pineapple) console.log('  - pineapple')
-// if (program.bbqSauce) console.log('  - bbq')
-// console.log('  - %s cheese', program.cheese)
+cli
+  .command('*', {
+    desc: '显示 fetp 模板功能'
+  }, () => {
+    cli.showHelp()
+  })
+cli
+  .command('dev', {
+    desc: '开发（development）模式',
+    alias: 'd'
+  }, createHandler('development'))
 
-program
-  .command('create <type> [name] [otherParas]')
-  .alias('c')
-  .description('Create new template')
-  .action(function (type, name, other) {
-    console.log('type', type)
-    console.log('name', name)
-    console.log('other', other)
+cli
+  .command('publish', {
+    desc: '发布（publish）项目',
+    alias: 'p'
+  }, createHandler('publish'))
+
+cli
+  .command('output', {
+    desc: '生产（production）模式',
+    alias: 'o'
+  }, createHandler('production'))
+
+cli
+  .command('init', {
+    desc: '生成种子项目',
+    alias: 'i'
+  }, createHandler('init'))
+
+cli
+  .command('help', {
+    desc: '打开帮助文档',
+    alias: 'h'
+  }, () => {
+    console.log('help')
   })
 
-program.parse(process.argv)
+cli.parse()
