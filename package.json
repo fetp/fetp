@@ -1,0 +1,30 @@
+{
+  "name": "fetp",
+  "version": "1.0.0",
+  "description": "基于nodejs的前端构建工具",
+  "main": "lib/index.js",
+  "bin": {
+    "fetp": "bin/cli.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yang657850144/feq.git"
+  },
+  "keywords": [
+    "cli",
+    "nodejs",
+    "fetp"
+  ],
+  "author": "charles yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yang657850144/feq/issues"
+  },
+  "homepage": "https://github.com/yang657850144/feq#readme"
+}
