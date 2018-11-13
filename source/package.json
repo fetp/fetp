@@ -1,14 +1,14 @@
 {
-  "name": "@rendertemplate/fetp-template-basic",
-  "version": "0.0.1",
-  "description": "基础的模板.",
+  "name": "@rendertemplate/fetp-template-vue",
+  "version": "0.0.2",
+  "description": "Vue基础模板.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yang657850144/fetp-template-basic.git"
+    "url": "git+https://github.com/yang657850144/fetp-template-vue.git"
   },
   "keywords": [
     "template",
@@ -17,7 +17,7 @@
   "author": "charles yang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yang657850144/fetp-template-basic/issues"
+    "url": "https://github.com/yang657850144/fetp-template-vue/issues"
   },
-  "homepage": "https://github.com/yang657850144/fetp-template-basic#readme"
+  "homepage": "https://github.com/yang657850144/fetp-template-vue#readme"
 }
