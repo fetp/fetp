@@ -1,0 +1,23 @@
+{
+  "name": "@rendertemplate/fetp-template-basic",
+  "version": "0.0.1",
+  "description": "基础的模板.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yang657850144/fetp-template-basic.git"
+  },
+  "keywords": [
+    "template",
+    "fetp"
+  ],
+  "author": "charles yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yang657850144/fetp-template-basic/issues"
+  },
+  "homepage": "https://github.com/yang657850144/fetp-template-basic#readme"
+}
