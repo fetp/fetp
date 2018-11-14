@@ -8,7 +8,7 @@ const createHandler = (mode) => {
   if (mode === 'init') {}
   return input => {
     // console.log(input, mode)
-    const runInit = require('../lib/renderTemplate')
+    const runInit = require('../lib/render/renderTemplate')
     runInit(input)
   }
 }

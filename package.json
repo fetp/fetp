@@ -33,6 +33,7 @@
     "got": "^9.3.2",
     "inquirer": "^6.2.0",
     "ora": "^3.0.0",
+    "read-metadata": "^1.0.0",
     "rimraf": "^2.6.2",
     "text-table": "^0.2.0"
   }
