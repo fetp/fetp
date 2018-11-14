@@ -1,36 +1,26 @@
 module.exports = {
   prompts: {
     name: {
+      name: 'projectName',
       message: '项目名字？',
       default: ':folderName:'
     },
     description: {
+      name: 'projectDesc',
       message: '项目描述？',
       default: ':folderName:'
     },
-    mobile: {
-      message: '手机移动端项目？',
-      type: 'confirm',
-      default: false,
-      store: true
-    },
     username: {
+      name: 'yourname',
       message: `你的名字？`,
-      default: ':gitUser:',
-      store: true
+      default: ':gitUser:'
     },
     email: {
+      name: 'youremail',
       message: `你的 Email？`,
-      default: ':gitEmail:',
-      store: true
+      default: ':gitEmail:'
     }
   },
   filters: {
-    'src/html/partials/flexible.hbs': 'mobile'
-  },
-  move: {
-    'gitignore': '.gitignore'
-  },
-  showTip: true,
-  yarnInstall: true
+  }
 }
