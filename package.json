@@ -30,6 +30,7 @@
   "dependencies": {
     "cac": "^5.0.15",
     "download-git-repo": "^1.1.0",
+    "git-config-path": "^1.0.1",
     "got": "^9.3.2",
     "handlebars": "^4.0.12",
     "inquirer": "^6.2.0",
