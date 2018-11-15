@@ -1,6 +1,6 @@
 {
   "name": "fetp",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "基于nodejs的前端构建工具",
   "main": "lib/index.js",
   "bin": {
@@ -10,7 +10,6 @@
     "lib": "lib"
   },
   "scripts": {
-    "pub": "node ./lib/utils/publish",
     "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -44,5 +43,8 @@
     "standard-version": "^4.4.0",
     "text-table": "^0.2.0",
     "user-home": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
   }
 }
