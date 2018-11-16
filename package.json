@@ -11,12 +11,15 @@
   },
   "scripts": {
     "pub": "standard-version ",
-    "release": "cross-env standard-version  && git push --follow-tags origin master && npm publish --access=public",
+    "release": "cross-env NODE_ENV=production standard-version  && git push --follow-tags origin master && npm publish --access=public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yang657850144/feq.git"
+  },
+  "engines": {
+    "node": ">=8"
   },
   "keywords": [
     "cli",
