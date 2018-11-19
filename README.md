@@ -1,36 +1,36 @@
-# fetp 前端模板构建工具
+# fetp 
 
-基于nodejs的前端构建工具
+> Front-End template build tool base on nodejs
 
-## 安装
+## install
 
 ```
 $ npm i -g fetp
 ```
 
-## 运行
+## Running
 
 ```
 $ fetp
 ```
 
 
-## 卸载
+## Uninstall
 
 ```
 $ npm uni -g fetp
 ```
 
-## 使用
+## Usage
 
-### 初始化种子项目
+### init seed project
 
 ```
-fetp init <模板类型> [项目路径]
+fetp init <template type> [project URL]
 ```
 
 
-### 帮助
+### Help
 
 ```
 fetp -h
