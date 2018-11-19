@@ -1,6 +1,6 @@
 {
   "name": "fetp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "基于nodejs的前端构建工具",
   "main": "lib/index.js",
   "bin": {
@@ -10,7 +10,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "pub": "standard-version ",
+    "pub": "standard-version",
     "release": "cross-env NODE_ENV=production standard-version  && git push --follow-tags origin master && npm publish --access=public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
