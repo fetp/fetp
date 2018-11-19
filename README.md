@@ -2,6 +2,11 @@
 
 > Front-End template build tool base on nodejs
 
+
+## Docs
+
+[https://fetp.github.io/fetp-docs](https://fetp.github.io/fetp-docs)
+
 ## install
 
 ```
