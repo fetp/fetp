@@ -5,11 +5,15 @@ const cac = require('cac')
 const cli = cac()
 
 const createHandler = (mode) => {
-  if (mode === 'init') {}
-  return input => {
-    // console.log(input, mode)
-    const runInit = require('../lib/render/renderTemplate')
-    runInit(input)
+  if (mode === 'init') {
+    return input => {
+      const runInit = require('../lib/render/renderTemplate')
+      runInit(input)
+    }
+  }
+  return _ => {
+    const runService = require('../lib/service/runService')
+    runService(mode)
   }
 }
 
