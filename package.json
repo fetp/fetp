@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yang657850144/feq.git"
+    "url": "git+https://github.com/fetp/fetp.git"
   },
   "engines": {
     "node": ">=8"
@@ -29,9 +29,9 @@
   "author": "charles yang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yang657850144/feq/issues"
+    "url": "https://github.com/fetp/fetp/issues"
   },
-  "homepage": "https://github.com/yang657850144/feq#readme",
+  "homepage": "https://github.com/fetp/fetp#readme",
   "dependencies": {
     "cac": "^5.0.15",
     "download-git-repo": "^1.1.0",
