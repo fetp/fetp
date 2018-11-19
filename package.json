@@ -1,6 +1,6 @@
 {
   "name": "fetp",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "description": "基于nodejs的前端构建工具",
   "main": "lib/index.js",
   "bin": {
@@ -10,13 +10,13 @@
     "lib": "lib"
   },
   "scripts": {
-    "pub": "standard-version ",
     "release": "cross-env NODE_ENV=production standard-version  && git push --follow-tags origin master && npm publish --access=public",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "standard-version"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yang657850144/feq.git"
+    "url": "git+https://github.com/fetp/fetp.git"
   },
   "engines": {
     "node": ">=8"
@@ -29,9 +29,9 @@
   "author": "charles yang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yang657850144/feq/issues"
+    "url": "https://github.com/fetp/fetp/issues"
   },
-  "homepage": "https://github.com/yang657850144/feq#readme",
+  "homepage": "https://github.com/fetp/fetp#readme",
   "dependencies": {
     "cac": "^5.0.15",
     "download-git-repo": "^1.1.0",
