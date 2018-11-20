@@ -30,10 +30,16 @@ cli
   }, createHandler('development'))
 
 cli
-  .command('publish', {
-    desc: '发布（publish）项目',
-    alias: 'p'
-  }, createHandler('publish'))
+  .command('watch', {
+    desc: 'watch 模式',
+    alias: 'w'
+  }, createHandler('watch'))
+
+// cli
+//   .command('publish', {
+//     desc: '发布（publish）项目',
+//     alias: 'p'
+//   }, createHandler('publish'))
 
 cli
   .command('output', {
@@ -52,7 +58,7 @@ cli
     desc: '打开帮助文档',
     alias: 'h'
   }, () => {
-    console.log('help')
+    cli.showHelp()
   })
 
 cli.parse()

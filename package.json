@@ -41,6 +41,7 @@
     "inquirer": "^6.2.0",
     "metalsmith": "^2.3.0",
     "ora": "^3.0.0",
+    "poi": "^11.0.0-beta.6",
     "read-metadata": "^1.0.0",
     "rimraf": "^2.6.2",
     "shelljs": "^0.8.3",
