@@ -46,7 +46,9 @@
     "shelljs": "^0.8.3",
     "standard-version": "^4.4.0",
     "text-table": "^0.2.0",
-    "user-home": "^2.0.0"
+    "user-home": "^2.0.0",
+    "webpack": "^4.26.0",
+    "webpack-dev-server": "^3.1.10"
   },
   "devDependencies": {
     "cross-env": "^5.2.0"
