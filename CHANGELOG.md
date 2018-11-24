@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.1"></a>
+## [0.3.1](https://github.com/fetp/fetp/compare/v0.3.0...v0.3.1) (2018-11-24)
+
+
+### Bug Fixes
+
+* filter fetp template ([08d8cb9](https://github.com/fetp/fetp/commit/08d8cb9))
+* modify cli interactive mode ([2118021](https://github.com/fetp/fetp/commit/2118021))
+* modify console.log ([8a06bb8](https://github.com/fetp/fetp/commit/8a06bb8))
+* modify query color and language ([1a0f4aa](https://github.com/fetp/fetp/commit/1a0f4aa))
+* remove poi, use webpack as web service ([9cf3971](https://github.com/fetp/fetp/commit/9cf3971))
+* test cli for local project ([c6e91a1](https://github.com/fetp/fetp/commit/c6e91a1))
+* 修复 sockjs-node is invalid ([ed66e0b](https://github.com/fetp/fetp/commit/ed66e0b))
+* 测试webpack devServer ([cffab05](https://github.com/fetp/fetp/commit/cffab05))
+
+
+### Features
+
+* test devServer config ([b914a37](https://github.com/fetp/fetp/commit/b914a37))
+* use update-notifier ([234d52a](https://github.com/fetp/fetp/commit/234d52a))
+* 使用loud-rejection ([7fe334b](https://github.com/fetp/fetp/commit/7fe334b))
+* 使用webpack devServer ([87b0ce9](https://github.com/fetp/fetp/commit/87b0ce9))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/fetp/fetp/compare/v0.2.3...v0.3.0) (2018-11-22)
 
