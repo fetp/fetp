@@ -3,6 +3,9 @@
 
 const cac = require('cac')
 const cli = cac()
+const loudRejection = require('loud-rejection')
+
+loudRejection()
 
 const createHandler = (mode) => {
   if (mode === 'init') {
