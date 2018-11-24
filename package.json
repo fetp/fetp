@@ -10,7 +10,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "pub": "cross-env NODE_ENV=production && git push --follow-tags origin master && npm publish --access=public",
+    "pub": "git push --follow-tags origin master && npm publish --access=public",
     "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
