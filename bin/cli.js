@@ -4,6 +4,9 @@
 const cac = require('cac')
 const cli = cac()
 const loudRejection = require('loud-rejection')
+const updateNotifier = require('update-notifier')
+const pkg = require('../package.json')
+updateNotifier({ pkg }).notify()
 
 loudRejection()
 
