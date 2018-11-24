@@ -3,8 +3,10 @@
 
 const cac = require('cac')
 const cli = cac()
+const opn = require('opn')
 const loudRejection = require('loud-rejection')
 const updateNotifier = require('update-notifier')
+const log = require('../lib/utils/log')
 const pkg = require('../package.json')
 updateNotifier({ pkg }).notify()
 
@@ -25,45 +27,47 @@ const createHandler = (mode) => {
 
 cli
   .command('*', {
-    desc: '显示 fetp 模板功能'
+    desc: 'Display FETP Template Function'
   }, () => {
     cli.showHelp()
   })
 cli
   .command('dev', {
-    desc: '开发（development）模式',
+    desc: 'development model',
     alias: 'd'
   }, createHandler('development'))
 
 cli
   .command('watch', {
-    desc: 'watch 模式',
+    desc: 'watch model',
     alias: 'w'
   }, createHandler('watch'))
 
 // cli
 //   .command('publish', {
-//     desc: '发布（publish）项目',
+//     desc: 'publish,
 //     alias: 'p'
 //   }, createHandler('publish'))
 
 cli
   .command('output', {
-    desc: '生产（production）模式',
+    desc: 'production model',
     alias: 'o'
   }, createHandler('production'))
 
 cli
   .command('init', {
-    desc: '生成种子项目',
+    desc: 'generate a seed project',
     alias: 'i'
   }, createHandler('init'))
 
 cli
   .command('help', {
-    desc: '打开帮助文档',
+    desc: 'Open Help Docs',
     alias: 'h'
   }, () => {
+    log.warn('please use online help documents: https://fetp.github.io/fetp-docs')
+    opn('https://fetp.github.io/fetp-docs')
     cli.showHelp()
   })
 
