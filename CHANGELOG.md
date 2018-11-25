@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.2"></a>
+## [0.3.2](https://github.com/fetp/fetp/compare/v0.3.1...v0.3.2) (2018-11-25)
+
+
+### Bug Fixes
+
+* delete cross-env ([6031e2c](https://github.com/fetp/fetp/commit/6031e2c))
+
+
+### Features
+
+* use detect-port checkout port available ([515cecf](https://github.com/fetp/fetp/commit/515cecf))
+* use glob checkout entry file *.js ([c4e9e29](https://github.com/fetp/fetp/commit/c4e9e29))
+
+
+
 <a name="0.3.1"></a>
 ## [0.3.1](https://github.com/fetp/fetp/compare/v0.3.0...v0.3.1) (2018-11-24)
 
