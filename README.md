@@ -9,20 +9,21 @@
 
 ## install
 
-```
+```bash
 $ npm i -g fetp
 ```
 
 ## Running
 
-```
+```bash
 $ fetp
 ```
 
+![](https://makefriends.bs2dl.yy.com/bm1543127896249.gif)
 
 ## Uninstall
 
-```
+```bash
 $ npm uni -g fetp
 ```
 
@@ -30,10 +31,20 @@ $ npm uni -g fetp
 
 ### init seed project
 
-```
-fetp init <template type> [project URL]
+```bash
+$ fetp init <template type> [project URL]
 ```
 
+![](https://makefriends.bs2dl.yy.com/bm1543128050175.gif)
+
+
+### start devServer
+
+```bash
+$ fetp d
+```
+
+![](https://makefriends.bs2dl.yy.com/bm1543128085386.gif)
 
 ### Help
 
