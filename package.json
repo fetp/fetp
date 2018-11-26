@@ -55,7 +55,8 @@
     "update-notifier": "^2.5.0",
     "user-home": "^2.0.0",
     "webpack": "^4.26.0",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
   },
   "devDependencies": {
     "cross-env": "^5.2.0"
