@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.5-alpha.0"></a>
+## [0.3.5-alpha.0](https://github.com/fetp/fetp/compare/v0.3.4...v0.3.5-alpha.0) (2018-11-29)
+
+
+### Bug Fixes
+
+* 本地项目无法运行This dependency was not found: ([9def2a7](https://github.com/fetp/fetp/commit/9def2a7))
+
+
+
 <a name="0.3.4"></a>
 ## [0.3.4](https://github.com/fetp/fetp/compare/v0.3.3...v0.3.4) (2018-11-29)
 
