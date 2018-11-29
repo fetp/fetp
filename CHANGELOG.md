@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.4"></a>
+## [0.3.4](https://github.com/fetp/fetp/compare/v0.3.3...v0.3.4) (2018-11-29)
+
+
+### Bug Fixes
+
+* splite webpack configurate ([e53e108](https://github.com/fetp/fetp/commit/e53e108))
+
+
+### Features
+
+* use css loaders,such as css-loader、style-loader、sass-loader ([0d56f1a](https://github.com/fetp/fetp/commit/0d56f1a))
+* use file-loader && imgage-loader ([572ab98](https://github.com/fetp/fetp/commit/572ab98))
+* use plugin for FriendlyErrorsWebpackPlugin ([cae92cc](https://github.com/fetp/fetp/commit/cae92cc))
+* use postcss && autoprefixer ([b0cc105](https://github.com/fetp/fetp/commit/b0cc105))
+* use postcss plugin for px2rem ([978d23a](https://github.com/fetp/fetp/commit/978d23a))
+* use semver for checkout node version ([58395f2](https://github.com/fetp/fetp/commit/58395f2))
+* use vue-loader for *.vue file ([e9d1aa2](https://github.com/fetp/fetp/commit/e9d1aa2))
+* use vue-template-compiler for *.vue file ([5608e95](https://github.com/fetp/fetp/commit/5608e95))
+* use webpack.merge ([fb68812](https://github.com/fetp/fetp/commit/fb68812))
+
+
+
 <a name="0.3.3"></a>
 ## [0.3.3](https://github.com/fetp/fetp/compare/v0.3.2...v0.3.3) (2018-11-25)
 

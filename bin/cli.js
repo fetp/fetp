@@ -4,10 +4,23 @@
 const cac = require('cac')
 const cli = cac()
 const opn = require('opn')
+const chalk = require('chalk')
 const loudRejection = require('loud-rejection')
 const updateNotifier = require('update-notifier')
+const semver = require('semver')
+
 const log = require('../lib/utils/log')
 const pkg = require('../package.json')
+
+if (!semver.satisfies(process.version, pkg.engines.node)) {
+  log.error(
+    `You are using Node ${process.version}, but fetp-service requires` +
+    ` ${chalk.green('Node' + pkg.engines.node)}.\n` +
+    `Please upgrade your Node version.`
+  )
+  process.exit(1)
+}
+
 updateNotifier({ pkg }).notify()
 
 loudRejection()
