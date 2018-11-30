@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.5-alpha.1"></a>
+## [0.3.5-alpha.1](https://github.com/fetp/fetp/compare/v0.3.5-alpha.0...v0.3.5-alpha.1) (2018-11-30)
+
+
+### Bug Fixes
+
+* babel loader url error bug ([689b5f3](https://github.com/fetp/fetp/commit/689b5f3))
+* delete bug_report ([d5daa7e](https://github.com/fetp/fetp/commit/d5daa7e))
+* modify babel path ([89fa8cd](https://github.com/fetp/fetp/commit/89fa8cd))
+* modify base path prepublish ([a81c7a1](https://github.com/fetp/fetp/commit/a81c7a1))
+
+
+
 <a name="0.3.5-alpha.0"></a>
 ## [0.3.5-alpha.0](https://github.com/fetp/fetp/compare/v0.3.4...v0.3.5-alpha.0) (2018-11-29)
 
