@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.5"></a>
+## [0.3.5](https://github.com/fetp/fetp/compare/v0.3.5-alpha.1...v0.3.5) (2018-11-30)
+
+
+### Bug Fixes
+
+* resolve loader path error,details show: ([03238bf](https://github.com/fetp/fetp/commit/03238bf))
+
+
+
 <a name="0.3.5-alpha.1"></a>
 ## [0.3.5-alpha.1](https://github.com/fetp/fetp/compare/v0.3.5-alpha.0...v0.3.5-alpha.1) (2018-11-30)
 
