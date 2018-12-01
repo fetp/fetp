@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.6"></a>
+## [0.3.6](https://github.com/fetp/fetp/compare/v0.3.5...v0.3.6) (2018-12-01)
+
+
+### Features
+
+* set eslint default options. ([6d81f26](https://github.com/fetp/fetp/commit/6d81f26))
+* use babel-loader ([611b6cc](https://github.com/fetp/fetp/commit/611b6cc))
+* use eslint-formatter-friendly ([d67bd36](https://github.com/fetp/fetp/commit/d67bd36))
+* use eslint-standard && eslint-vue ([5995bf5](https://github.com/fetp/fetp/commit/5995bf5))
+
+
+
 <a name="0.3.5"></a>
 ## [0.3.5](https://github.com/fetp/fetp/compare/v0.3.5-alpha.1...v0.3.5) (2018-11-30)
 
