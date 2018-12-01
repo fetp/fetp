@@ -7,13 +7,11 @@
 
 [https://fetp.github.io/fetp-docs](https://fetp.github.io/fetp-docs)
 
-## install
+# Usage (basic)
 
-```bash
-$ npm i -g fetp
-```
+## preview
 
-## Running
+> Preview fetp all function
 
 ```bash
 $ fetp
@@ -21,33 +19,125 @@ $ fetp
 
 ![](https://makefriends.bs2dl.yy.com/bm1543127896249.gif)
 
-## Uninstall
+
+## init
+
+> Initial a seed project
 
 ```bash
-$ npm uni -g fetp
+$ fetp init <templateName> [directory]
+# OR Shorthand 
+$ fetp i <templateName> [directory]
 ```
 
-## Usage
+![](https://makefriends.bs2dl.yy.com/bm1543643949529.gif)
 
-### init seed project
+## dev
 
-```bash
-$ fetp init <template type> [project URL]
-```
-
-![](https://makefriends.bs2dl.yy.com/bm1543128050175.gif)
-
-
-### start devServer
+> development model, Running a Development Web Server
 
 ```bash
+$ fetp dev
+# OR Shorthand 
 $ fetp d
 ```
 
-![](https://makefriends.bs2dl.yy.com/bm1543128085386.gif)
+![](https://makefriends.bs2dl.yy.com/bm1543644512171.gif)
 
-### Help
 
+## watch (unimplemented)
+
+> watch model
+
+```bash
+$ fetp watch
+# OR Shorthand 
+$ fetp w
 ```
-fetp -h
+
+## output (unimplemented)
+
+> production model, building & publish project production development.
+
+```bash
+$ fetp output
+# OR Shorthand 
+$ fetp o
 ```
+
+## help
+
+> view online help document.
+
+```bash
+$ fetp help
+# OR Shorthand 
+$ fetp -h
+```
+
+## preview
+
+> Preview fetp all function
+
+```bash
+$ fetp
+```
+
+![](https://makefriends.bs2dl.yy.com/bm1543127896249.gif)
+
+
+## init
+
+> Initial a seed project
+
+```bash
+$ fetp init <templateName> [directory]
+# OR Shorthand 
+$ fetp i <templateName> [directory]
+```
+
+![](https://makefriends.bs2dl.yy.com/bm1543643949529.gif)
+
+## dev
+
+> development model, Running a Development Web Server
+
+```bash
+$ fetp dev
+# OR Shorthand 
+$ fetp d
+```
+
+![](https://makefriends.bs2dl.yy.com/bm1543644512171.gif)
+
+
+## watch (unimplemented)
+
+> watch model
+
+```bash
+$ fetp watch
+# OR Shorthand 
+$ fetp w
+```
+
+## output (unimplemented)
+
+> production model, building & publish project production development.
+
+```bash
+$ fetp output
+# OR Shorthand 
+$ fetp o
+```
+
+## help
+
+> view online help document.
+
+```bash
+$ fetp help
+# OR Shorthand 
+$ fetp -h
+```
+
