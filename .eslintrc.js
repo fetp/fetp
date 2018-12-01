@@ -1,3 +1,4 @@
+// todo: eslint 插件化
 module.exports = {
   "env": {
     "es6": true,
