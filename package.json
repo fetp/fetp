@@ -32,9 +32,13 @@
     "url": "https://github.com/fetp/fetp/issues"
   },
   "homepage": "https://github.com/fetp/fetp#readme",
+  "eslintConfig": {
+    "extends": "@fetp/eslint-config-fetp"
+  },
   "dependencies": {
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
+    "@fetp/eslint-config-fetp": "0.0.2",
     "autoprefixer": "^9.3.1",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
