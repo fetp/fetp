@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.7"></a>
+## [0.3.7](https://github.com/fetp/fetp/compare/v0.3.7-alpha.0...v0.3.7) (2018-12-02)
+
+
+### Features
+
+* use [@fetp](https://github.com/fetp)/eslint-config-fetp ([c39512a](https://github.com/fetp/fetp/commit/c39512a))
+
+
+
 <a name="0.3.7-alpha.0"></a>
 ## [0.3.7-alpha.0](https://github.com/fetp/fetp/compare/v0.3.6...v0.3.7-alpha.0) (2018-12-01)
 
