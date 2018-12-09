@@ -1,6 +1,6 @@
 
 <p align="center">
-    <a href="http://www.yangoogle.com/#/lib/messages">
+    <a href="https://github.com/fetp/fetp">
         <img width="200" src="https://avatars2.githubusercontent.com/u/45163886?s=400&u=72e70470a7f4cc42bff9f054dcee0d8cfce57d58&v=4"/>
     </a>
 </p>
