@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.9"></a>
+## [0.3.9](https://github.com/fetp/fetp/compare/v0.3.8...v0.3.9) (2018-12-09)
+
+
+### Bug Fixes
+
+* modify description in package.json ([e77688b](https://github.com/fetp/fetp/commit/e77688b))
+* test git user ([7f1f109](https://github.com/fetp/fetp/commit/7f1f109))
+* test git user ([7e33d78](https://github.com/fetp/fetp/commit/7e33d78))
+
+
+
 <a name="0.3.8"></a>
 ## [0.3.8](https://github.com/fetp/fetp/compare/v0.3.7...v0.3.8) (2018-12-08)
 
