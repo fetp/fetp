@@ -69,7 +69,7 @@ $ fetp o
 
 ```bash
 $ fetp help
-# OR Shorthand 
+# OR Shorthand
 $ fetp -h
 ```
 
