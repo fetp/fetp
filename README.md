@@ -7,7 +7,7 @@
 
 [https://fetp.github.io/fetp-docs](https://fetp.github.io/fetp-docs)
 
-## preview
+## Preview
 
 > Preview fetp all function
 
@@ -18,7 +18,7 @@ $ fetp
 ![](https://makefriends.bs2dl.yy.com/bm1543127896249.gif)
 
 
-## init
+## Init
 
 > Initial a seed project
 
@@ -30,7 +30,7 @@ $ fetp i <templateName> [directory]
 
 ![](https://makefriends.bs2dl.yy.com/bm1543643949529.gif)
 
-## dev
+## Development
 
 > development model, Running a Development Web Server
 
@@ -43,7 +43,7 @@ $ fetp d
 ![](https://makefriends.bs2dl.yy.com/bm1543644512171.gif)
 
 
-## watch (unimplemented)
+## Watch (unimplemented)
 
 > watch model
 
@@ -53,7 +53,7 @@ $ fetp watch
 $ fetp w
 ```
 
-## output (unimplemented)
+## Output (unimplemented)
 
 > production model, building & publish project production development.
 
@@ -63,7 +63,7 @@ $ fetp output
 $ fetp o
 ```
 
-## help
+## Help
 
 > view online help document.
 
