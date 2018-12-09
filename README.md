@@ -16,7 +16,7 @@
 [中文](https://fetp.github.io/fetp-docs/#/zh-cn/quickstart) | [English](https://fetp.github.io/fetp-docs/#/en-us/quickstart)
 
 
-[Online Preview](https://fetp.github.io/fetp-docs/#/en-us/usage) | [GitHub](https://github.com/yang657850144/fetp)
+[Online Preview](https://fetp.github.io/fetp-docs/#/en-us/usage) | [GitHub](https://github.com/fetp/fetp)
 
 ## Introduction
 
