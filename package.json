@@ -1,6 +1,6 @@
 {
   "name": "fetp",
-  "version": "0.3.10",
+  "version": "0.3.11",
   "description": "Front-End template build tool base on nodejs🔥",
   "main": "lib/index.js",
   "bin": {
