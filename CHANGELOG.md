@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.11"></a>
+## [0.3.11](https://github.com/fetp/fetp/compare/v0.3.10...v0.3.11) (2018-12-13)
+
+
+### Bug Fixes
+
+* modify logo link address ([ec4a6fd](https://github.com/fetp/fetp/commit/ec4a6fd))
+
+
+
 <a name="0.3.10"></a>
 ## [0.3.10](https://github.com/fetp/fetp/compare/v0.3.9...v0.3.10) (2018-12-09)
 
