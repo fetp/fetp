@@ -27,6 +27,7 @@ loudRejection()
 
 const createHandler = (mode) => {
   if (mode === 'init') {
+    // 函数柯里化
     return input => {
       const runInit = require('../lib/render/renderTemplate')
       runInit(input)
