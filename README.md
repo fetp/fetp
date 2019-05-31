@@ -96,3 +96,9 @@ $ fetp help
 $ fetp -h
 ```
 
+
+## Q & A
+
+- Q: `Error: EACCES: permission denied, mkdir .. ?`
+- A: Make sure you have right to modify corresponding file,please input `chmod a+w [path].`
+
